@@ -1,20 +1,28 @@
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+page{
+  height:100%;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.container{
+  margin:0;
+  padding:0;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.swiper{
+  background:red;
+  width:100%;
 }
 
-.usermotto {
-  margin-top: 200px;
+.item-swiper{
+  background:blue;
+}
+
+.item-root{
+  height:100%;
+  padding:0 10rpx;
+}
+
+.item-root>view{
+  height:100%;
+  border-radius:50rpx;
+  background:yellow;
 }

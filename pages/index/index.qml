@@ -1,12 +1,35 @@
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}"
+        interval="{{interval}}"
+        duration="{{duration}}"
+        previous-margin="20rpx"
+        next-margin="20rpx">
+        <block qq:for="{{swiperList}}">
+          <swiper-item class="item-swiper">
+            <view class="item-root">
+              <block qq:if="{{item.dark}}">
+                <view>
+                  <image class="bg"></image>
+                  <view class="subtitle">
+                    <text>SH01</text>
+                    <text>Enjoy</text>
+                  </view>
+                  <text class="title">畅叙与对饮</text>
+                  <view class="shop-container">
+                    
+                  </view>
+                </view>
+              </block>
+              <block qq:else">
+                <view>
+                
+                
+                
+                </view>
+              </block>
+            </view>
+          </swiper-item>
+        </block>
+  </swiper>
 </view>

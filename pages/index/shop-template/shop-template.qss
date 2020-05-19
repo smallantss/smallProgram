@@ -1,0 +1,19 @@
+.shop-container{
+    
+}
+
+.shop-pic{
+    width:150rpx;
+    hieght:120rpx;
+    background:red;
+}
+
+.shop-title{
+    font-size:8rpx;
+    color:#333333;
+}
+
+.shop-price{
+    font-size:10rpx;
+    color:red;
+}
