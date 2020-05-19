@@ -1,19 +1,21 @@
-.shop-container{
-    
+.shop-root{
+    display:flex;
+    flex-direction:column;
 }
 
 .shop-pic{
     width:150rpx;
     hieght:120rpx;
-    background:red;
+    margin-bottom:20rpx;
+    background:green;
 }
 
 .shop-title{
-    font-size:8rpx;
+    font-size:18rpx;
     color:#333333;
 }
 
 .shop-price{
-    font-size:10rpx;
+    font-size:22rpx;
     color:red;
 }
