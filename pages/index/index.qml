@@ -7,11 +7,17 @@
         <view class="item-root">
           <block qq:if="{{item.dark}}">
             <image class="bg"></image>
-            <view class="subtitle">
-              <text class="subtitle-index">SH01</text>
-              <text class="subtitle-text">Enjoy</text>
+            <view class="head">
+              <view class="head-content">
+                <view class="subtitle">
+                  <text class="subtitle-index">SH01</text>
+                  <text class="subtitle-text">Enjoy</text>
+                </view>
+                <text class="title">畅叙与对饮</text>
+              </view>
+              
             </view>
-            <text class="title">畅叙与对饮</text>
+            
             <view class="shop-container">
               <block qq:for="{{item.shopList}}" qq:for-item="shop">
                 <template is="shop-item" data="{{...shop}}"></template>
