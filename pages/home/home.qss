@@ -1,0 +1,29 @@
+page{
+    height:100%;
+}
+
+.root{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    background:#DCDCDC;
+}
+
+.search-root{
+    margin: 15px 20px;
+    background:white;
+    border-radius:4px;
+    padding:10px;
+}
+
+.search-root image{
+    width:15px;
+    height:15px;
+    vertical-align:middle;
+}
+.search-root text{
+    vertical-align:middle;
+    font-size:14px;
+    margin-left:10px;
+    color:#DCDCDC;
+}

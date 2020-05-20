@@ -1,12 +1,38 @@
 {
   "pages":[
+    "pages/home/home",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "QQ小程序",
+    "navigationBarTitleText": "节选",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#999999",
+     "selectedColor":"#333333",
+     "backgroundColor":"#FFFFFF",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"images/icon-home-not.png",
+        "selectedIconPath":"images/icon-home.png"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text":"逛店",
+        "iconPath":"images/icon-shop-not.png",
+        "selectedIconPath":"images/icon-shop.png"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "text":"购物车",
+        "iconPath":"images/icon-car-not.png",
+        "selectedIconPath":"images/icon-car.png"
+      }
+    ]
   }
 }
