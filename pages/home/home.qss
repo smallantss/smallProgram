@@ -27,3 +27,46 @@ page{
     margin-left:10px;
     color:#DCDCDC;
 }
+
+.move-parent{
+    width:100%;
+    height:70px;
+    background:red;
+}
+
+movable-view{
+    width:700px;
+    height:100%;
+}
+
+.move-root{
+    display:flex;
+}
+
+.move-root>image{
+    width:50px;
+    height:50px;
+    margin:10px;
+    background:yellow;
+}
+
+
+.scroll{
+    background:pink;
+    white-space: nowrap;
+}
+
+.scroll image{
+    width:50px;
+    height:50px;
+    margin:10px;
+    background:yellow;
+}
+
+.scroll-bar{
+    background:#666666;
+    width:30px;
+    height:2px;
+    margin:20px auto;
+}
+
