@@ -44,9 +44,12 @@
 
     <view class="scroll-bar">
         <view class="scroll-bar-content" style="background:red;
-    width:20px;
-    height:100%;
-    margin-left:{{barLeft}}"></view>
+            width:20px;
+            height:100%;
+            margin-left:{{barLeft}}">
+        </view>
     </view>
+
+    <text class="tips">看看theParagraph节选好商品</text>
 
 </view>

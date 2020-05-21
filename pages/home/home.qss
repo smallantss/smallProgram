@@ -70,3 +70,8 @@ movable-view{
     margin:20px auto;
 }
 
+.tips{
+    margin:0 auto;
+    font-size:14px;
+    letter-spacing:2px;
+}

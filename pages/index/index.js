@@ -4,6 +4,10 @@ const app = getApp()
 
 Page({
   data: {
+    opacity:0,
+    popOpen:false,
+    show:'none',
+    popMargin:'-100%',
     swiperList: [{
       dark:1,
       subTitle:"Enjoy",
@@ -50,6 +54,20 @@ Page({
       console.log(value.name)
     }
     this.setData(this.data)
-  }
+  },
   
+
+  toggle:function(){
+    console.log(this.data.popOpen);
+    if(this.data.popOpen){
+      this.data.popMargin = '-100%';
+      this.data.opacity = 0;
+    }else{
+      this.data.popMargin = '0';
+      this.data.opacity = 0.4;
+    }
+    
+    this.data.popOpen = !this.data.popOpen
+    this.setData(this.data);
+  }
 })
